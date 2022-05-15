@@ -68,7 +68,7 @@ jobs:
       - run: 
           name: Make chromedriver executable
           command: 
-            sudo chmod 755 /home/circleci/circleCiTesting/chromedriver*
+            sudo chmod 755 *
       - run:
           name: Running X virtual framebuffer
           command: Xvfb :0 -ac &
