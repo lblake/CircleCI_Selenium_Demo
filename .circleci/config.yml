@@ -65,10 +65,6 @@ jobs:
             sudo apt-get install xvfb
             sudo apt-get -y install imagemagick x11-apps
        
-      - run: 
-          name: Make chromedriver executable
-          command: 
-            sudo chmod 755 *
       - run:
           name: Running X virtual framebuffer
           command: Xvfb :0 -ac &

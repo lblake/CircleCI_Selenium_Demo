@@ -12,7 +12,7 @@ public class NewTest {
 	@BeforeTest
 	public void beforeClass() {
 		  
-	  System.setProperty("webdriver.chrome.driver", "chromedriver");
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	  driver = new ChromeDriver();
 		
 	}
