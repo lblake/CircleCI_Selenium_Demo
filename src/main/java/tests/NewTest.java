@@ -17,7 +17,7 @@ public class NewTest {
 		
 	}
     @Test
-    public void openMyBlog() {
+    public void openWebsite() {
     	driver.get("https://www.google.com/");
     }
   
