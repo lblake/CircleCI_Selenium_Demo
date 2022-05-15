@@ -11,21 +11,17 @@ public class NewTest {
 	
 	@BeforeTest
 	public void beforeClass() {
-		  
-	  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-	  driver = new ChromeDriver();
-		
+		 System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	     driver = new ChromeDriver();	
 	}
     @Test
     public void openWebsite() {
     	driver.get("https://www.google.com/");
     }
-  
-
 
     @AfterTest
-  public void afterClass() {
-	  driver.close();
+    public void afterClass() {
+	    driver.close();
   }
 
 }
